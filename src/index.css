@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #005fcc;
+  }
+  
+  .link {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  /* Home Page */
+  .home-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .home-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Signin Page */
+  .signin-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .signin-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signin-button-wrapper {
+    display: inline-block;
+  }
+  
+  /* Account Page */
+  .account-container {
+    max-width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .account-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .account-welcome {
+    margin-bottom: 20px;
+  }
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e04444;
+  }
+  
